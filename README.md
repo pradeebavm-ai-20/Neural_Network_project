@@ -32,18 +32,18 @@ Output Layer (1 neuron) — Sigmoid activation
 
 ##  Features Implemented From Scratch
 
-- ✅ Synthetic dataset generation (NumPy + Pandas)
-- ✅ Exploratory Data Analysis (distribution, boxplots, correlation heatmap)
-- ✅ Manual train/test split (80/20, fixed seed, no sklearn)
-- ✅ Z-score standardization using **training statistics only** (no data leakage)
-- ✅ Custom matrix multiplication (no `np.dot` / `np.matmul`)
-- ✅ ReLU and Sigmoid activations + their derivatives
-- ✅ Forward propagation
-- ✅ Binary Cross-Entropy loss (with epsilon clipping)
-- ✅ Backpropagation via the chain rule
-- ✅ Gradient descent parameter updates
-- ✅ Manual evaluation metrics: accuracy, precision, recall, F1-score, confusion matrix
-- ✅ `predict_student()` function for real-time new-student predictions
+-  Synthetic dataset generation (NumPy + Pandas)
+-  Exploratory Data Analysis (distribution, boxplots, correlation heatmap)
+-  Manual train/test split (80/20, fixed seed, no sklearn)
+-  Z-score standardization using **training statistics only** (no data leakage)
+-  Custom matrix multiplication (no `np.dot` / `np.matmul`)
+-  ReLU and Sigmoid activations + their derivatives
+-  Forward propagation
+-  Binary Cross-Entropy loss (with epsilon clipping)
+-  Backpropagation via the chain rule
+-  Gradient descent parameter updates
+-  Manual evaluation metrics: accuracy, precision, recall, F1-score, confusion matrix
+-  `predict_student()` function for real-time new-student predictions
 
 ##  Results
 
