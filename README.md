@@ -82,15 +82,23 @@ Output Layer (1 neuron) — Sigmoid activation
 ##  Project Structure
 
 ```
-student-pass-fail-nn/
-├── student_pass_fail_nn.py     # Full implementation (dataset → training → evaluation)
-├── EXPLANATION.md               # Concept-by-concept breakdown (what/why/formula/code)
-├── outputs/                      # Generated plots (created automatically on run)
+student_result_prediction/
+│
+├── .venv/
+│
+├── outputs/
 │   ├── eda_class_distribution.png
-│   ├── eda_feature_boxplots.png
 │   ├── eda_correlation_heatmap.png
+│   ├── eda_feature_boxplots.png
 │   └── training_loss.png
-└── README.md
+│
+├── .gitignore
+│
+├── README.md
+│
+├── requirements.txt
+│
+└── Student_result_prediction.ipynb
 ```
 
 ##  How to Run
